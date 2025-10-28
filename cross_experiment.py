@@ -235,17 +235,17 @@ def test(model):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
-        description="SF2Net for Palmprint Recfognition"
+        description="SF2Net for Palmprint Verification"
     )
 
-    parser.add_argument("--source_id", type=str, default="Tongji")
-    parser.add_argument("--target_id", type=str, default="IITD")
+    parser.add_argument("--source_id", type=str, default="PolyU")
+    parser.add_argument("--target_id", type=str, default="Tongji")
     parser.add_argument("--batch_size", type=int, default=512)
-    parser.add_argument("--id_num", type=int, default=600,
+    parser.add_argument("--id_num", type=int, default=386,
                         help="IITD: 460 KTU: 145 Tongji: 600 REST: 358 XJTU: 200 POLYU 386 Multi-Spec 500 IITD_Right 230 Tongji_LR 300")
     parser.add_argument("--gpu_id", type=str, default='0')
 
-    ##Training Path
+    ##⚠️⚠️⚠️ You need to modify the dataset for the target_id.
     parser.add_argument("--train_set_file", type=str, default='./data/Tongji/train_Tongji.txt')
     parser.add_argument("--test_set_file", type=str, default='./data/Tongji/test_Tongji.txt')
 
