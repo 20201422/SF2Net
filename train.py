@@ -307,7 +307,7 @@ def fit(epoch, model, data_loader, phase='training'):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
-        description="SF2Net for Palmprint Recfognition"
+        description="SF2Net for Palmprint Verification"
     )
 
     parser.add_argument("--batch_size", type=int, default=500)
