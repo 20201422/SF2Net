@@ -7,7 +7,7 @@ Currently global features are usually extracted directly from local patterns in 
 ## Citation
 If our work is valuable to you, please cite our work:
 ```
-@ARTICLE{yang2023ccnet,
+@ARTICLE{
   author={Liu, Yunlong and Leng, Lu and Yang, Ziyuan and Teoh, Andrew Beng Jin and Zhang, Bob},
   journal={IEEE Transactions on Information Forensics and Security}, 
   title={SF2Net: Sequence Feature Fusion Network for Palmprint Recognition}, 
